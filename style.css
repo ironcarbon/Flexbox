@@ -13,3 +13,26 @@ body{
     margin: 0 auto;
 }
 
+.flex-container{
+    display: flex;
+    background: #fff;
+}
+
+
+.box{
+    height: 100px;
+    min-width: 100px;
+}
+.one{
+    background: coral;
+    flex-grow: 1;
+}
+
+.two{
+    background: aqua;
+    flex-grow: 2;
+}
+.three{
+    background: lightgreen;
+    flex-grow: 3;
+}
