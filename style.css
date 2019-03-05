@@ -18,13 +18,13 @@ body{
     background: #fff;
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: center;
     height: 800px;
+    align-items: center;
 }
 
 
 .box{
-    height: 100px;
+    width: 100px;
     /* flex-basis: 300px; */
     flex: 0 0 100px;    
     
@@ -44,5 +44,8 @@ body{
  justify-content always works in main axis
 flex-flow: row/column changes the direction of axis
 set the column change the main axis direction!
+*/
 
+/* align-items
+is used on CROSS-AXIS
 */
